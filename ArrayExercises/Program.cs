@@ -6,7 +6,13 @@ namespace ArrayExercises
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Arrays!");
+            var numbers = new int[] { 1, 1, 2, 3, 5, 8 };
+
+            foreach (var number in numbers)
+            {
+                Console.WriteLine(number);
+            }
+
         }
     }
 }
